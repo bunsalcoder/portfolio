@@ -32,10 +32,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "edu",
-    title: "Edu",
-  },
+  // {
+  //   id: "edu",
+  //   title: "Edu",
+  // },
   {
     id: "work",
     title: "Work",
@@ -134,16 +134,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Engineer",
+    title: "Full-Stack Developer",
     company_name: "Infinity Information & Apps Dev",
     icon: infinity,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Developing backend systems and APIs using Medusa.js, Nest.js, and TypeORM.",
-      "Integrating with databases using TypeORM, including defining models, entities, relationships, and performing database operations (e.g., querying, data manipulation).",
-      "Implementing authentication and authorization mechanisms, such as JWT (JSON Web Tokens) or session-based authentication, to secure APIs and protect resources.",
-      "Implementing proper error handling and logging mechanisms to ensure robustness and facilitate troubleshooting.",
+      "Responsible for the backend development of the company's projects.",
+      "Compile and analyse data, processes, and codes to troubleshoot problems.",
+      "Initialize ideas to identify areas for improvement as well as implementation.",
+      "Responsible for code quality and participate in the realisation of correct, efficient, and stable applications.",
+      "Build high quality reusable code and libraries for future use as needed.",
+      "Write and maintain related documents for the optimisation of the backend and frontend project.",
+      "Comply with code development specifications, unit tests and best practices.",
+      "Address any technical issues that occur in the field, communicate and follow up with the team to drive the resolution.",
     ],
   },
   {
@@ -173,7 +177,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Junior Software Engineer",
     company_name: "LT Labs",
     icon: ltlabs,
     iconBg: "#E6DEDD",

@@ -8,7 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import Education from './Education';
+// import Education from './Education';
 
 
 export {
@@ -17,7 +17,7 @@ export {
   About,
   Tech,
   Experience,
-  Education,
+  // Education,
   Works,
   Feedbacks,
   Contact,
