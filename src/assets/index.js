@@ -23,6 +23,8 @@ import threejs from "./tech/threejs.svg";
 import laravel from "./tech/laravel.png";
 import php from "./tech/php.png";
 import mariadb from "./tech/mariadb.jpg";
+import knex from "./tech/knex.png";
+import vue from "./tech/vue.png";
 
 import mangobyte from "./company/mangobyte.png";
 import ltlabs from "./company/ltlabs.png"
@@ -70,4 +72,6 @@ export {
   laravel,
   php,
   mariadb,
+  knex,
+  vue,
 };

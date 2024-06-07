@@ -47,10 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software engineer, a full stack developer.
-        I'm a quick learner and collaborate closely with PM and PO to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am a Full Stack Developer with a strong aptitude for fast learning, adept at seamlessly integrating both front-end and back-end technologies. 
+       I am excel in working collaboratively with Product Managers (PM) and Product Owners (PO), ensuring efficient communication and alignment with project goals. 
+       My ability to quickly grasp new technologies and frameworks makes me a versatile asset to any development team, driving innovation and delivering high-quality solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -24,7 +24,8 @@ import {
   threejs,
   laravel,
   php,
-  mariadb,
+  knex,
+  vue,
 } from "../assets";
 
 export const navLinks = [
@@ -102,34 +103,38 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
   // {
-  //   name: "laravel",
-  //   icon: laravel
+  //   name: "Three JS",
+  //   icon: threejs,
   // },
   // {
-  //   name: "php",
-  //   icon: php
+  //   name: "git",
+  //   icon: git,
   // },
   // {
-  //   name: "mariadb",
-  //   icon: mariadb
-  // }
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  {
+    name: "laravel",
+    icon: laravel
+  },
+  {
+    name: "php",
+    icon: php
+  },
+  {
+    name: "knex",
+    icon: knex
+  },
+  {
+    name: "vue",
+    icon: vue
+  }
 ];
 
 const experiences = [
@@ -140,7 +145,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Responsible for the backend development of the company's projects.",
+      "Responsible for the backend development of the company's projects with node js and react js.",
       "Compile and analyse data, processes, and codes to troubleshoot problems.",
       "Initialize ideas to identify areas for improvement as well as implementation.",
       "Responsible for code quality and participate in the realisation of correct, efficient, and stable applications.",
