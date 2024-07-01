@@ -26,6 +26,7 @@ import {
   php,
   knex,
   vue,
+  nikestore,
 } from "../assets";
 
 export const navLinks = [
@@ -145,14 +146,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
-      "Responsible for the backend development of the company's projects with node js and react js.",
-      "Compile and analyse data, processes, and codes to troubleshoot problems.",
-      "Initialize ideas to identify areas for improvement as well as implementation.",
-      "Responsible for code quality and participate in the realisation of correct, efficient, and stable applications.",
-      "Build high quality reusable code and libraries for future use as needed.",
-      "Write and maintain related documents for the optimisation of the backend and frontend project.",
-      "Comply with code development specifications, unit tests and best practices.",
-      "Address any technical issues that occur in the field, communicate and follow up with the team to drive the resolution.",
+      "Spearhead the backend development using Node.js for the company's projects.",
+      "Collaborate closely with the frontend team to seamlessly integrate the React.js components.",
+      "Meticulously write comprehensive unit tests to ensure the reliability and stability of the codebase.",
+      "Analyze data, processes, and codebases to proactively identify and troubleshoot complex technical issues.",
+      "Propose and implement innovative ideas to drive continuous improvement and optimization of the application.",
+      "Maintain a strong focus on code quality and participate in the delivery of efficient, high-performance solutions.",
+      "Develop reusable, modular code components and libraries to enhance developer productivity and flexibility.",
+      "Thoroughly document technical specifications and procedures to support the ongoing maintenance and evolution of the project.",
     ],
   },
   {
@@ -215,87 +216,55 @@ const experiences = [
   },
 ];
 
-const education = [
-  {
-    title: "Associate Degree of Information Technology",
-    university_name: "Passerelles Numeriques Cambodia",
-    icon: pnc,
-    iconBg: "#383E56",
-    date: "Oct 2019 - May 2022",
-    points: [
-      "Solid Networking Knowledge",
-      "Proficient Programming Skills",
-      "Design Proficiency",
-      "Practical Experience",
-      "Collaboration and Communication Skills"
-    ],
-  },
-  {
-    title: "Bachelor Degree of Computer Science",
-    university_name: "University of Puthisastra",
-    icon: up,
-    iconBg: "#E6DEDD",
-    date: "August 2023 - Present",
-    points: [
-      "Mobile Development Expertise",
-      "Backend Development Skills",
-      "Cloud Infrastructure Knowledge",
-      "Advanced Linux Competence",
-      "Web Development Proficiency",
-      "IT Research Methodology",
-    ],
-  },
-];
-
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Bunsal's impressive skills, dedication, and teamwork have been essential to our team's consistent success and achievements.",
     name: "CHEA Socheat",
-    designation: "Software Engineer Manager",
-    company: "LTlabs",
+    designation: "Software Engineering Manager",
+    company: "TovTrip",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I highly recommend Bunsal for the full-stack development. He has shown adaptability to change, and is eager to learn new things.",
     name: "NOEURN Neang",
-    designation: "Sr. Full-Stack Engineer | Team Lead",
+    designation: "Sr. Full-Stack Engineer | Tech Lead",
     company: "LTlabs",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "HUL Sim",
-    designation: "Education Coordinator",
-    company: "PNC",
+      "Bunsal has shown his deep understanding of full-stack development. He is able to quickly learn new concepts and apply them to his work.",
+    name: "HENG Henry",
+    designation: "Technical Operation Manager",
+    company: "Okoone",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
 const projects = [
-  // {
-  //   name: "Car Rent",
-  //   description:
-  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Nike Store",
+    description:
+      "The Nike Store Project is a React and Redux-based web application that uses Tailwind CSS to provide customers with a user-friendly interface for browsing and purchasing Nike products.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nikestore,
+    source_code_link: "https://github.com/bunsalcoder/nike-store",
+  },
   // {
   //   name: "Job IT",
   //   description:
@@ -340,4 +309,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects, education };
+export { services, technologies, experiences, testimonials, projects };

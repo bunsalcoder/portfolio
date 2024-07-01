@@ -34,7 +34,7 @@ import infinity from "./company/infinity.png"
 import pnc from "./company/pnc.png";
 import up from "./company/up.png";
 
-import carrent from "./carrent.png";
+import nikestore from "./nikestore.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -60,7 +60,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
+  nikestore,
   jobit,
   tripguide,
   mangobyte,
