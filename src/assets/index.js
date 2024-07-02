@@ -8,12 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import mongodb from "./tech/mongodb.png"
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -22,7 +20,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import laravel from "./tech/laravel.png";
 import php from "./tech/php.png";
-import mariadb from "./tech/mariadb.jpg";
 import knex from "./tech/knex.png";
 import vue from "./tech/vue.png";
 
@@ -31,12 +28,9 @@ import ltlabs from "./company/ltlabs.png"
 import wing from "./company/wing.png"
 import infinity from "./company/infinity.png"
 
-import pnc from "./company/pnc.png";
-import up from "./company/up.png";
-
 import nikestore from "./nikestore.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import a from "./client/a.jpg";
 
 export {
   logo,
@@ -48,8 +42,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -61,17 +53,13 @@ export {
   typescript,
   threejs,
   nikestore,
-  jobit,
-  tripguide,
   mangobyte,
   ltlabs,
   wing,
   infinity,
-  up,
-  pnc,
   laravel,
   php,
-  mariadb,
   knex,
   vue,
+  a,
 };

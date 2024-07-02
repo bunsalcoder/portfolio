@@ -12,16 +12,10 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
   mangobyte,
   ltlabs,
   wing,
   infinity,
-  up,
-  pnc,
-  threejs,
   laravel,
   php,
   knex,
@@ -34,10 +28,6 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  // {
-  //   id: "edu",
-  //   title: "Edu",
-  // },
   {
     id: "work",
     title: "Work",
@@ -104,22 +94,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
   {
     name: "laravel",
     icon: laravel
@@ -223,7 +197,7 @@ const testimonials = [
     name: "CHEA Socheat",
     designation: "Software Engineering Manager",
     company: "TovTrip",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "src/assets/client/c.jpg",
   },
   {
     testimonial:
@@ -231,7 +205,7 @@ const testimonials = [
     name: "NOEURN Neang",
     designation: "Sr. Full-Stack Engineer | Tech Lead",
     company: "LTlabs",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "src/assets/client/a.jpg",
   },
   {
     testimonial:
@@ -239,7 +213,7 @@ const testimonials = [
     name: "HENG Henry",
     designation: "Technical Operation Manager",
     company: "Okoone",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "src/assets/client/b.jpg",
   },
 ];
 
@@ -265,48 +239,6 @@ const projects = [
     image: nikestore,
     source_code_link: "https://github.com/bunsalcoder/nike-store",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
