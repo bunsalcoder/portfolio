@@ -30,9 +30,9 @@ import infinity from "./company/infinity.png"
 
 import nikestore from "./nikestore.png";
 
-import a from "./client/a.jpg";
-import b from "./client/b.jpg";
-import c from "./client/c.jpg";
+import client1 from "./client/a.jpg";
+import client2 from "./client/b.jpg";
+import client3 from "./client/c.jpg";
 
 export {
   logo,
@@ -63,7 +63,7 @@ export {
   php,
   knex,
   vue,
-  a,
-  b,
-  c,
+  client1,
+  client2,
+  client3,
 };
