@@ -31,6 +31,8 @@ import infinity from "./company/infinity.png"
 import nikestore from "./nikestore.png";
 
 import a from "./client/a.jpg";
+import b from "./client/b.jpg";
+import c from "./client/c.jpg";
 
 export {
   logo,
@@ -62,4 +64,6 @@ export {
   knex,
   vue,
   a,
+  b,
+  c,
 };
