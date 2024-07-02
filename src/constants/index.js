@@ -21,6 +21,9 @@ import {
   knex,
   vue,
   nikestore,
+  a,
+  b,
+  c,
 } from "../assets";
 
 export const navLinks = [
@@ -197,7 +200,7 @@ const testimonials = [
     name: "CHEA Socheat",
     designation: "Software Engineering Manager",
     company: "TovTrip",
-    image: "assets/client/c.jpg",
+    icon: c,
   },
   {
     testimonial:
@@ -205,7 +208,7 @@ const testimonials = [
     name: "NOEURN Neang",
     designation: "Sr. Full-Stack Engineer | Tech Lead",
     company: "LTlabs",
-    image: "assets/client/a.jpg",
+    icon: b,
   },
   {
     testimonial:
@@ -213,7 +216,7 @@ const testimonials = [
     name: "HENG Henry",
     designation: "Technical Operation Manager",
     company: "Okoone",
-    image: "assets/client/b.jpg",
+    icon: a,
   },
 ];
 
