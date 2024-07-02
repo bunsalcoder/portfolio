@@ -197,7 +197,7 @@ const testimonials = [
     name: "CHEA Socheat",
     designation: "Software Engineering Manager",
     company: "TovTrip",
-    image: "src/assets/client/c.jpg",
+    image: "assets/client/c.jpg",
   },
   {
     testimonial:
@@ -205,7 +205,7 @@ const testimonials = [
     name: "NOEURN Neang",
     designation: "Sr. Full-Stack Engineer | Tech Lead",
     company: "LTlabs",
-    image: "src/assets/client/a.jpg",
+    image: "assets/client/a.jpg",
   },
   {
     testimonial:
@@ -213,7 +213,7 @@ const testimonials = [
     name: "HENG Henry",
     designation: "Technical Operation Manager",
     company: "Okoone",
-    image: "src/assets/client/b.jpg",
+    image: "assets/client/b.jpg",
   },
 ];
 
