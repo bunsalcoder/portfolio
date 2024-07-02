@@ -9,7 +9,6 @@ Welcome to my personal portfolio! This project showcases my skills and projects 
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
