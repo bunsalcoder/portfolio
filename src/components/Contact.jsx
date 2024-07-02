@@ -31,6 +31,26 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    function isFieldInvalid(field) {
+      return !field || field.trim() === '';
+    }
+
+    const isNameInvalid = isFieldInvalid(form.name);
+    const isEmailInvalid = isFieldInvalid(form.email);
+    const isMessageInvalid = isFieldInvalid(form.message);
+
+    if (isNameInvalid || isEmailInvalid || isMessageInvalid) {
+      let errorMessage = 'Please enter ';
+      if (isNameInvalid) errorMessage += 'your name';
+      if (isEmailInvalid) errorMessage += (isNameInvalid ? ', ' : '') + 'your email';
+      if (isMessageInvalid) errorMessage += ((isNameInvalid || isEmailInvalid) ? ', and ' : '') + 'your message';
+      
+      alert(`${errorMessage}!`);
+      
+      setLoading(false);
+      return;
+    }
+   
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -109,7 +129,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='What do you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
