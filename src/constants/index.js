@@ -208,7 +208,7 @@ const testimonials = [
     name: "NOEURN Neang",
     designation: "Sr. Full-Stack Engineer | Tech Lead",
     company: "LTlabs",
-    image: client2,
+    image: client1,
   },
   {
     testimonial:
@@ -216,7 +216,7 @@ const testimonials = [
     name: "HENG Henry",
     designation: "Technical Operation Manager",
     company: "Okoone",
-    image: client1,
+    image: client2,
   },
 ];
 
