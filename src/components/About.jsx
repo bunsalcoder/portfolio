@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useState } from "react";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -36,16 +37,54 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+
+  const CV_URL = 'assets/resume/Bunsal-Application.pdf';
+  const [clicked, setClicked] = useState(false);
+
+  const handleDownload = () => {
+    setClicked(true);
+
+    const link = document.createElement('a');
+    link.href = CV_URL;
+    link.setAttribute('download', 'Bunsal - FullStack Application.pdf');
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+
+    setTimeout(() => {
+      setClicked(false);
+    }, 2000);
+  };
+
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      <div className="flex justify-between sm:grid">
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview.</h2>
+        </motion.div>
+
+        <div className="sm:my-5 my-[26px]">
+          <button className="relative flex justify-center items-center h-8 w-[150px] sm:h-10 sm:w-50 overflow-hidden border border-indigo-600 
+            text-secondary shadow-2xl transition-all duration-200 before:absolute before:bottom-0 
+            before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 
+            before:rounded-sm before:bg-indigo-600 before:duration-300 before:ease-out hover:text-white 
+            hover:shadow-indigo-600 hover:before:h-60 hover:before:w-60 hover:before:opacity-80 
+            bg-tertiary py-3 px-8 sm:py-2 sm:px-6 rounded-xl outline-none w-fit font-bold shadow-md shadow-primary"
+            onClick={handleDownload}
+          >
+            <span className="relative z-10 text-center text-[12px] sm:text-[14px]">
+              {clicked ? 'Downloading...' : 'Download CV'}
+            </span>
+          </button>
+        </div>
+      </div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-justify text-[17px] max-w-3xl leading-[30px]'
       >
        I am a Full Stack Developer with a strong aptitude for fast learning, adept at seamlessly integrating both front-end and back-end technologies. 
        I am excel in working collaboratively with Product Managers (PM) and Product Owners (PO), ensuring efficient communication and alignment with project goals. 
