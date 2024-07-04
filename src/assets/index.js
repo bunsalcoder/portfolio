@@ -34,6 +34,8 @@ import client1 from "./client/a.jpg";
 import client2 from "./client/b.jpg";
 import client3 from "./client/c.jpg";
 
+import CV from "./resume/Bunsal-Application.pdf"
+
 export {
   logo,
   backend,
@@ -66,4 +68,5 @@ export {
   client1,
   client2,
   client3,
+  CV,
 };

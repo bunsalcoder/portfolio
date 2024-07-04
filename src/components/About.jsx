@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { useState } from "react";
 
+import { CV } from "../assets";
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -38,14 +40,14 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
 
-  const CV_URL = 'assets/resume/Bunsal-Application.pdf';
+  // const CV_URL = 'assets/resume/Bunsal-Application.pdf';
   const [clicked, setClicked] = useState(false);
 
   const handleDownload = () => {
     setClicked(true);
 
     const link = document.createElement('a');
-    link.href = CV_URL;
+    link.href = CV;
     link.setAttribute('download', 'Bunsal - FullStack Application.pdf');
     document.body.appendChild(link);
 
